@@ -1,0 +1,39 @@
+.who{
+    margin-top: 130px;
+    min-height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 130px;
+}
+
+.who-div{
+    height: 200px;
+    width: 800px;
+    color: #e64ca6;
+    margin: 10px 0 10px 50px;
+    position: relative;
+}
+
+.who-div h2{
+    font-size: 40px
+}
+
+.who-div p{
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    border-left: 5px solid #e64ca6;
+    padding-left: 10px;
+    margin-left: 3px;
+}
+
+.who-div h3{
+    position: absolute;
+    right: 0;
+    top: 50px;
+    opacity: .2;
+    color: #e64ca6;
+    font-size: 80px;
+}

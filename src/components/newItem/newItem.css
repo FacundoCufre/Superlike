@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+
+.new{
+    height: 95%;
+    width: 30%;
+    margin-right: 20px;
+    border: solid 1px #e64ca6;
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    background-position: center;
+    transition: all .2s;
+    position: relative;
+    background-image: url('../../utils/img/logoSL.jpeg');
+    cursor: default;
+    box-shadow: 0px 0px 5px 1px rgba(230,76,166,0.77);
+}
+
+.new-date{
+    height: 30px;
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 15px;
+    align-items: center;
+    background-color: transparent;
+    background-color: #e64ca6;
+    text-align: center;
+    clip-path: polygon(0 0, 100% 0%, 75% 100%, 0 100%);
+    z-index: 2;
+}
+
+.new-headline{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 30px;
+    font-size: 15px;
+    color: black;
+    background-color: #e64ca6;
+    clip-path: polygon(10% 0, 90% 0, 100% 100%, 0% 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    z-index: 2;
+    transition: all .2s;
+}
+
+.new-headline-title{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    line-height: 30px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.new-headline-text{
+    display: none;
+}
+
+.new:hover .new-headline{
+    height: 100%;
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 100%);
+    flex-direction: column;
+}
+
+.new:hover .new-headline-title{
+    height: 10%;
+}
+
+.new:hover .new-headline-text{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    height: 90%;
+    width: 100%;
+    font-family: 'Oswald', sans-serif;
+}

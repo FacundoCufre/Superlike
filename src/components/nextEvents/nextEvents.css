@@ -1,0 +1,25 @@
+.nextEvents{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.nextEvents-title{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 50px;
+    color: black;
+    width: 100%;
+    background-color: #e64ca6;
+    box-shadow: 0px 0px 8px 2px rgba(31, 1, 18, 0.77) inset;
+}
+
+.nextEvents-cards{
+    min-height: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
