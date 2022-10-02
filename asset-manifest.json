@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Superlike/static/css/main.3bfb4686.css",
+    "main.js": "/Superlike/static/js/main.102519bc.js",
+    "static/media/logoSL.jpeg": "/Superlike/static/media/logoSL.1c74702ecc3b71bdaa62.jpeg",
+    "index.html": "/Superlike/index.html",
+    "main.3bfb4686.css.map": "/Superlike/static/css/main.3bfb4686.css.map",
+    "main.102519bc.js.map": "/Superlike/static/js/main.102519bc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3bfb4686.css",
+    "static/js/main.102519bc.js"
+  ]
+}
